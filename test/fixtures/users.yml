@@ -1,0 +1,11 @@
+one:
+#START_HIGHLIGHT
+  name: rasik
+#END_HIGHLIGHT
+  password_digest: <%= BCrypt::Password.create('secret') %>
+
+two:
+#START_HIGHLIGHT
+  name: sunny
+#END_HIGHLIGHT
+  password_digest: <%= BCrypt::Password.create('secret') %>
